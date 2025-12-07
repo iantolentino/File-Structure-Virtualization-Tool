@@ -1,3 +1,4 @@
+# CLI version
 import os
 import argparse
 from pathlib import Path
@@ -293,4 +294,5 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         main()
     else:
+
         interactive_mode()
