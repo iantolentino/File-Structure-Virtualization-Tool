@@ -6,7 +6,7 @@ class FolderStructureGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Folder Structure Generator")
-        self.root.geometry("800x600")
+        self.root.geometry("800x600") 
         
         # Variables
         self.folder_path = tk.StringVar()
@@ -138,4 +138,5 @@ class FolderStructureGUI:
 if __name__ == "__main__":
     root = tk.Tk()
     app = FolderStructureGUI(root)
+
     root.mainloop()
