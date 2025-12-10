@@ -12,7 +12,7 @@ The Folder Structure Generator is a desktop application that visualizes director
 - **Multiple Display Formats**: Toggle between simple and detailed views
 
 ### Customization Options
-- **Hidden Files/Folders**: Option to include or exclude hidden items
+- **Hidden Files/Folders**: Option to include or exclude hidden items 
 - **File Inclusion**: Toggle between folder-only or folder-and-file views
 - **Path Display**: Show full file paths alongside names
 - **Sorting**: Automatic alphabetical sorting with folders prioritized
