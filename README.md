@@ -9,7 +9,7 @@ The Folder Structure Generator is a desktop application that visualizes director
 ### Core Functionality
 - **Directory Visualization**: Generate hierarchical views of folder structures
 - **Recursive Scanning**: Automatically scans subdirectories to any depth
-- **Multiple Display Formats**: Toggle between simple and detailed views
+- **Multiple Display Formats**: Toggle between simple and detailed views 
 
 ### Customization Options
 - **Hidden Files/Folders**: Option to include or exclude hidden items 
