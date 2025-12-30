@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import filedialog, scrolledtext, messagebox
 import os
  
-class FolderStructureGUI:
+class FolderStructureGUI: 
     def __init__(self, root):
         self.root = root
         self.root.title("Folder Structure Generator")
@@ -142,4 +142,5 @@ if __name__ == "__main__":
     app = FolderStructureGUI(root)
 
     root.mainloop()
+
 
