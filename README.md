@@ -1,5 +1,5 @@
 # Folder Structure Generator
-
+ 
 ## Overview  
 
 The Folder Structure Generator is a desktop application that visualizes directory hierarchies in a clear, tree-like format. Built with Python's Tkinter library, this tool provides an intuitive interface for exploring and documenting folder structures with configurable display options.
