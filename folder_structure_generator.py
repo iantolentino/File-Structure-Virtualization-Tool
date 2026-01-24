@@ -1,4 +1,4 @@
-# Version With GUI
+"""This is the version that has UI"""
 
 import tkinter as tk
 from tkinter import filedialog, scrolledtext, messagebox
@@ -18,7 +18,8 @@ class FolderStructureGUI:
         
         # Create UI
         self.create_widgets()
-        
+
+ """create widgets has all the buttons and frames initialization"""
     def create_widgets(self):
         # Top frame for controls
         control_frame = tk.Frame(self.root)
@@ -142,5 +143,6 @@ if __name__ == "__main__":
     app = FolderStructureGUI(root)
 
     root.mainloop()
+
 
 
