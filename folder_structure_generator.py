@@ -62,7 +62,8 @@ class FolderStructureGUI:
         # Status bar
         self.status_bar = tk.Label(self.root, text="Ready", bd=1, relief=tk.SUNKEN, anchor=tk.W)
         self.status_bar.pack(side=tk.BOTTOM, fill=tk.X)
-        
+     
+    """Setting up the folder path"""
     def browse_folder(self):
         folder = filedialog.askdirectory()
         if folder:
@@ -143,6 +144,7 @@ if __name__ == "__main__":
     app = FolderStructureGUI(root)
 
     root.mainloop()
+
 
 
 
