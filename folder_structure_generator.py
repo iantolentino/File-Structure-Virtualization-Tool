@@ -19,7 +19,7 @@ class FolderStructureGUI:
         # Create UI
         self.create_widgets()
 
- """create widgets has all the buttons and frames initialization"""
+ """Create widgets has all the buttons and frames initialization"""
     def create_widgets(self):
         # Top frame for controls
         control_frame = tk.Frame(self.root)
@@ -144,6 +144,7 @@ if __name__ == "__main__":
     app = FolderStructureGUI(root)
 
     root.mainloop()
+
 
 
 
